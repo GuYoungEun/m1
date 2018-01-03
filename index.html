@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalabler=no">
+    <!--기기에 맞게 렌더링을 걸어준다-->
+    <meta name="keywords" content="beauty, makeup, eyebrow, eyeshadow, eyeline, primer, lipstick">
+    <meta name="Subject" content="홈페이지 주제">
+    <meta name="Title" content="benefit">
+    <meta name="Description" content="설명문 입력">
+    <meta name="Author" content="Gu">
+    
+    <!--데스크탑 브라우저의 탭에 아이콘 추가-->
+    <link href="icon.png" rel="icon" /><!--또는-->
+    <link href="icon.png" rel="icon" type="image/x-icon" />
+    
+    <!--iphone의 반사광 효과가 없는 경우-->
+    <link href="icon.png" rel="apple-touch-icon-precomposed" />
+    
+    <!--iphone의 반사광이 있는 경우-->
+    <link href="icon.png" rel="apple-touch-icon" />
+    
+    <!--iphone icon(Retina)-->
+    <link href="icon.png" sizes rel="apple-touch-icon" />
+    
+    <!--ipad icon(Retina)-->
+    <link href="icon.png" rel="apple-touch-icon" />
+    
+    <!--Android png의 경우-->
+    <link href="icon.png" rel="shortcut icon" />
+    
+    <!--Android png의 경우-->
+    <link href="icon.png" rel="shortcut icon" /><!--또는-->
+    <link href="icon.png" rel="shortcut icon" type="image/x-icon" />
+    
+    <!--스타트업 이미지 640*920(i4), 640*1138(i5)-->
+    <link href="icon.png" rel="shortcut icon" />
+    
+    <title>benefit</title>
+    
+    <script>
+        //주소창 자동 닫힘
+        windiw.addEventListener("load", Function(){
+                                setTimeout(loaded, 100);
+                                }, false);
+        funtion loaded(){
+            window.scrollTo(0, 1);
+            //0은x축1은y축을의미한다 이때,px단위로설정된다
+        }
+    </script>
+    
+    <style>
+        * { margin:0; padding:0; }
+        html, body { width:100%; height:100%; }
+        ul { list-style:none; }
+        a { text-decoration:none; }
+        img { border:0; }
+        
+        #wrap { width:100%; height:100%; }
+        
+        #hd { width:100%; height:80px; background-color:#f2717f; }
+        #tnb li { display:block; width:50%; float:left; }
+        #tnb li a { display:block; background-repeat:no-repeat; }
+        .logo { float:left; width:100%; height:80px; background-position:0 center;
+                background-image:url(./img/m-logo.png); }
+        .search { float:right; }
+        
+    </style>
+    
+</head>
+<body>
+    
+    <div id="wrap">
+    
+        <header id="hd">
+            <ul id="tnb">
+                <li>
+                    <a href="index.html" class="logo"></a>
+                </li>
+                <li>
+                    <input type="text" name="txtBox">
+                    <a href="" class="search"></a>
+                </li>
+            </ul>
+        </header>
+
+        <figure id="visual">
+            <ul class="imgBox">
+                <li>
+                    <a href="">
+                        <img src="" alt="브로우샵이미지">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="" alt="">
+                    </a>
+                </li>
+            </ul>
+        </figure>
+
+        <footer id="ft">
+            <ul class="iconBox">
+                <li class="col-4">
+                    <a href=""></a>
+                </li>
+                <li class="col-4">
+                    <a href=""></a>
+                </li>
+                <li class="col-4">
+                    <a href=""></a>
+                </li>
+                <li class="col-4">
+                    <a href=""></a>
+                </li>
+                <li class="col-4">
+                    <a href=""></a>
+                </li>
+                <li class="col-4">
+                    <a href=""></a>
+                </li>
+                <li class="col-4">
+                    <a href=""></a>
+                </li>
+                <li class="col-4">
+                    <a href=""></a>
+                </li>
+                <li class="col-4">
+                    <a href=""></a>
+                </li>
+            </ul>
+        </footer>
+    
+    </div>
+    
+</body>
+</html>
